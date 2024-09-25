@@ -1,0 +1,101 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  padding: 0 10%; /* Add 10% margin on left and right */
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 20px; /* Space between the three main sections */
+}
+
+.section {
+  width: 30%; /* Each section takes up one-third of the available width */
+  background: rgba(255, 255, 255, 0.05); /* Light transparent background */
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px;
+  backdrop-filter: blur(10px); /* Blur effect */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Light border */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.section:hover {
+  transform: translateY(-5px); /* Lift the card slightly on hover */
+}
+
+.subtitle {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns grid */
+  gap: 10px; /* Space between skill items */
+  justify-items: center;
+  justify-content: center; /* Center items when fewer than 3 */
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px; /* Adjusted size for better fit */
+  height: 100px; /* Adjusted size for better fit */
+  padding: 10px; /* Added padding for better spacing inside container */
+}
+
+.skillImageContainer img {
+  width: 60px; /* Adjusted image size to fit within container */
+  height: 60px; /* Ensuring image maintains a square aspect ratio */
+  object-fit: contain; /* Ensure the image fits within the container without distortion */
+}
+
+.skill p {
+  font-size: 18px; /* Reduced font size to maintain balance */
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  text-align: center;
+}
+
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .section {
+    width: 100%;
+  }
+
+  .skills {
+    grid-template-columns: repeat(2, 1fr); /* Adjust grid to 2 columns on small screens */
+    justify-content: center; /* Center items when fewer than 2 */
+  }
+}

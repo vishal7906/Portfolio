@@ -1,0 +1,23 @@
+[
+    {
+        "title":"Pizza Ordering Application",
+        "image":"projects/pizza.png",
+        "description":"A simple pizza ordering application that comes along with cart section and customize orders section.",
+        "skills":["React","JavaScript","Express","MongoDB"],
+        "source":"https://github.com/vishal7906/Pizza-Ordering_Site"
+    },
+    {
+        "title":"E-Libraray System",
+        "image":"projects/elib.png",
+        "description":"It provides an intuitive interface for users to browse, read and download e-books in PDF format.",
+        "skills":["React","TypeScript","NextJs","ShadcnUi"],
+        "source":"https://github.com/vishal7906/elib-frontend"
+    },
+    {
+        "title":"Feedback Management System",
+        "image":"projects/feedback.png",
+        "description":"It allows users to submit feedback with the ability to delete individual feedbacks manually.",
+        "skills":["React","TypeScript","Axios","Express"],
+        "source":"https%3A%2F%2Fgithub.com%2Fvishal7906%2FFeedback_Management_System%3Ftab%3Dreadme-ov-file"
+    }
+]

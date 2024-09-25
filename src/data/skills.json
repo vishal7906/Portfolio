@@ -1,0 +1,92 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png",
+      "category":"frontend"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png",
+      "category":"frontend"
+    },
+    {
+      "title": "React",
+      "imageSrc": "skills/react.png",
+      "category":"frontend"
+    },
+    {
+      "title": "Tailwind",
+      "imageSrc": "skills/tailwind.png",
+      "category":"frontend"
+    },
+    {
+      "title":"Shadcn-Ui",
+      "imageSrc":"skills/shadcn.png",
+      "category":"frontend"
+    },
+    {
+      "title":"Redux",
+      "imageSrc":"skills/redux-toolkit.png",
+      "category":"frontend"
+    },
+    {
+      "title": "Node",
+      "imageSrc": "skills/node.png",
+      "category":"backend"
+    },
+    {
+      "title":"Express",
+      "imageSrc":"skills/express.png",
+      "category":"backend"
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "skills/mongodb.png",
+      "category":"backend"
+    },
+    {
+      "title":"NextJS",
+      "imageSrc":"skills/nextjs.png",
+      "category":"backend"
+    },
+    {
+      "title":"MySQL",
+      "imageSrc":"skills/mysql.png",
+      "category":"backend"
+    },
+    {
+      "title":"Appwrite",
+      "imageSrc":"skills/appwrite.png",
+      "category":"backend"
+    },
+    {
+      "title":"Git",
+      "imageSrc":"skills/git.png",
+      "category":"tools"
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "skills/figma.png",
+      "category":"tools"
+    },
+    {
+      "title":"Docker",
+      "imageSrc":"skills/docker.png",
+      "category":"tools"
+    },
+    {
+      "title":"TypeScript",
+      "imageSrc":"skills/typescript.png",
+      "category":"tools"
+    },
+    {
+      "title":"C++",
+      "imageSrc":"skills/C++.png",
+      "category":"tools"
+    },
+    {
+      "title":"Postman",
+      "imageSrc":"skills/postman.png",
+      "category":"tools"
+    }
+  ]
