@@ -37,7 +37,7 @@ export default function Hero({ end }: { end: boolean }) {
                       delayChildren: 0.1,
                     }}
                   >
-                    {splitText("GOURAV ", {
+                    {splitText("VISHAL ", {
                       visualDuration: 0.5,
                       ease: "easeInOut",
                     })}
@@ -52,7 +52,7 @@ export default function Hero({ end }: { end: boolean }) {
                       delayChildren: 0.1,
                     }}
                   >
-                    {splitText("THAKUR", {
+                    {splitText("SANWAL", {
                       visualDuration: 0.5,
                       ease: "easeInOut",
                     })}

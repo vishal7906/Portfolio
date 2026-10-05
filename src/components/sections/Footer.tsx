@@ -19,7 +19,7 @@ export default function Footer() {
             speed={1.0}
           />
         </div>
-        GOURAV
+        VISHAL
       </div> */}
       <div className="w-full max-w-[1000px] h-[100px] sm:h-[150px] md:h-[220px] mx-auto footer_slashed">
         {bg === "light" ? (
@@ -66,15 +66,15 @@ export default function Footer() {
 const SM = [
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/gouravakajojo/",
+    link: "https://www.linkedin.com/in/vishal-sanwal/",
   },
 
   {
     name: "Email",
-    link: "mailto:gourav98055@gmail.com",
+    link: "mailto:viratrmr@gmail.com",
   },
   {
     name: "Github",
-    link: "https://github.com/GouravAkaJojo?tab=repositories",
+    link: "https://github.com/Vishal7906?tab=repositories",
   },
 ];

@@ -34,7 +34,7 @@ function Item({ i }: { i: (typeof data)[0] }) {
         stiffness: 100,
       }}
       viewport={{ once: false, amount: 0.1 }}
-      href={i.link}
+      href={i.link || undefined}
       target="_blank"
       rel="noreferrer"
       onMouseEnter={() => setHover(true)}
@@ -119,14 +119,9 @@ function Item({ i }: { i: (typeof data)[0] }) {
 
 const data = [
   {
-    name: "Yourgpt Landing Page",
+    name: "Yourgpt Website",
     image: "/work/ygpt.png",
     link: "https://yourgpt.ai",
-  },
-  {
-    name: "AI Helpdesk",
-    image: "/work/helpdesk.png",
-    link: "https://help.yourgpt.ai",
   },
   {
     name: "Chatbot Dashboard",
@@ -134,18 +129,13 @@ const data = [
     link: "https://chatbot.yourgpt.ai",
   },
   {
-    name: "Intervium",
-    image: "/work/intervium.png",
-    link: "https://intervium.vercel.app"
+    name: "YourGPT Mobile App",
+    image: "/work/yourgpt-mobile.png",
+    link: "https://apps.apple.com/in/app/your-ai-chatbot/id6499470819",
   },
   {
-    name: "Drifto",
-    image: "/work/drifto.png",
-    link: "https://drifto.thakurgourav.in",
-  },
-  {
-    name: "Auditions",
-    image: "/work/auditions.png",
-    link: "https://auditions.com",
+    name: "Oddlert",
+    image: "/work/oddlert.png",
+    link: "",
   },
 ];

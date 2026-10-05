@@ -13,10 +13,10 @@ export default function About() {
         <ScrollOpacityText
           type="word"
           className="leading-8 sm:leading-12 font-semibold"
-          text="Hey, I’m Gourav, a software developer with 3+ years of experience. I craft sleek, high-performing interfaces and sprinkle in some UI/UX magic to make them shine. Beyond just looking good, I focus on engineering highly stable, scalable, and resilient products that stand the test of time. When I’m not coding, I’m either tweaking my portfolio (again), pushing pixels in Figma, or pretending I don’t have 37 open tabs. Let’s build something awesome!"
+          text="Hey, I’m Vishal, a software developer with 2 years of experience. I craft sleek, high-performing interfaces and sprinkle in some UI/UX magic to make them shine. Beyond just looking good, I focus on engineering highly stable, scalable, and resilient products that stand the test of time. When I’m not coding, I’m either tweaking my portfolio (again), pushing pixels in Figma, or pretending I don’t have 37 open tabs. Let’s build something awesome!"
         />
         {/* <div className={commClass}>
-          Hey, I’m Gourav, a frontend developer with 2 years of experience,
+          Hey, I’m Vishal, a frontend developer with 2 years of experience,
           turning coffee into clean, pixel-perfect code. I work with React,
           Next.js, React Native, TypeScript, Tailwind, and Framer
           Motion—basically, if it’s on the frontend, I’ve probably styled it,

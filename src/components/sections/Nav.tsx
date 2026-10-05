@@ -114,8 +114,8 @@ export default function Nav() {
                   <a
                     key={i}
                     target="_blank"
-                    href="/Gourav_Resume.pdf"
-                    download={"Gourav_Resume.pdf"}
+                    href="/Vishal_Resume.pdf"
+                    download={"Vishal_Resume.pdf"}
                   >
                     <StaggerText text={i} key={i} asLink={false} />
                   </a>
@@ -142,8 +142,8 @@ export default function Nav() {
                         initial={{ opacity: 0, x: 30, y: 5 }}
                         key={i}
                         target="_blank"
-                        href="/Gourav_Resume.pdf"
-                        download={"Gourav_Resume.pdf"}
+                        href="/Vishal_Resume.pdf"
+                        download={"Vishal_Resume.pdf"}
                         className="stagger-item"
                         onClick={() => onDropToggle(false)}
                       >
