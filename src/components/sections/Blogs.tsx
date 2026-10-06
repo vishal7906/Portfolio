@@ -4,20 +4,12 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const blogs = [
     {
-        title: "Stop using useEffect in React (new hooks 2025/2026)",
-        link: "https://gouravakajojo.hashnode.dev/stop-using-useeffect-react-new-hooks-2025-2026",
+        title: "React Native Old Architecture vs New Architecture ",
+        link: "https://hashnode.com/edit/cmuwljyz3000004l8chxnea7p",
     },
     {
-        title: "React Compiler: Delete useMemo & useCallback",
-        link: "https://gouravakajojo.hashnode.dev/react-compiler-delete-usememo-usecallback",
-    },
-    {
-        title: "Ship 10x faster with AI stack frontend 2026",
-        link: "https://gouravakajojo.hashnode.dev/ship-10x-faster-ai-stack-frontend-2026",
-    },
-    {
-        title: "Vibe coding is producing the worst codebases I've ever reviewed",
-        link: "https://gouravakajojo.hashnode.dev/vibe-coding-is-producing-the-worst-codebases-i-ve-ever-reviewed",
+        title: "Fixing the Chat Screen Jump When the Keyboard Opens in React Native",
+        link: "https://oldarchitecturevsnewarchitecture.hashnode.dev/fixing-the-chat-screen-jump-when-the-keyboard-opens-in-react-native",
     },
 ];
 
