@@ -5,11 +5,11 @@ import { motion, AnimatePresence } from "framer-motion";
 const blogs = [
     {
         title: "React Native Old Architecture vs New Architecture ",
-        link: "https://hashnode.com/edit/cmuwljyz3000004l8chxnea7p",
+        link: "https://vishal-sanwal.hashnode.dev/react-native-old-architecture-vs-new-architecture",
     },
     {
-        title: "Fixing the Chat Screen Jump When the Keyboard Opens in React Native",
-        link: "https://oldarchitecturevsnewarchitecture.hashnode.dev/fixing-the-chat-screen-jump-when-the-keyboard-opens-in-react-native",
+        title: "Why FlatList Shows Blank Rows on a Fast Scroll, and What to Use Instead",
+        link: "https://vishal-sanwal.hashnode.dev/why-flatlist-shows-blank-rows-on-a-fast-scroll-and-what-to-use-instead",
     },
 ];
 
