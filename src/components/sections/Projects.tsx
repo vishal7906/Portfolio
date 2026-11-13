@@ -131,11 +131,11 @@ const data = [
   {
     name: "YourGPT Mobile App",
     image: "/work/yourgpt-mobile.png",
-    link: "https://apps.apple.com/in/app/your-ai-chatbot/id6499470819",
+    link: "https://apps.apple.com/app/your-ai-chatbot/id6499470819",
   },
   {
     name: "Oddlert",
     image: "/work/oddlert.png",
-    link: "",
+    link: "https://drive.google.com/file/d/1K7HIh9957BOcioqBsOLZf9A0DT4UPX-S/view?usp=drive_link",
   },
 ];
